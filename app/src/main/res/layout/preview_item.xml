@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/previewitem_cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_weight="0.33">
+    </TextView>
+    <TextView
+        android:id="@+id/previewitem_degree"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="-410dp"
+        android:textSize="30dp"/>
+</LinearLayout>
